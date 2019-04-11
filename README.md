@@ -5,9 +5,27 @@ Automatizar la gestión de usuarios del clúster institucional.
 # Definición de producto
 
 Permite a los investigadores líderes que trabajan en el INMEGEN
-registrar inmediatamente a sus estudiantes y asociados
-para usar los recursos del clúster institucional
-y eliminar la administración manual.
+generar cuentas de usuario para que sus estudiantes y asociados
+usen los recursos del clúster institucional,
+eliminando la necesidad de administrar manualmente las cuentas de usuario.
+
+# Glosario
+
+Instituto: El Instituto Nacional de Medicina Genómica.
+
+Clúster institucional: El grupo de cómputo dedicado a cómputo científico en el Instituto.
+
+Investigador líder: La persona que dirige un grupo de investigación en el Instituto y cuya cuenta de usuario le permite administrar los usuarios de su grupo de investigación.
+
+Grupo de investigación: El identificador de grupo de sistema operativo utiliza para administrar los permisos de las cuentas de usuario.
+
+Usuario: La persona que utilizará el clúster institucional.
+
+Cuenta de usuario: El identificador que la persona usa para trabajar en el clúster institucional.
+
+Contraseña: el secreto que permite a los usuarios acceder a los recursos del clúster institucional.
+
+Periodo de acceso: el periodo durante el que un usuario puede acceder a los recursos del clúster institucional con su cuenta de usuario.
 
 # Requerimientos de negocio
 
@@ -16,18 +34,28 @@ y eliminar la administración manual.
 - Automatizar el reporte de usuarios requerido en el procedimiento 20 del [Manual de Procedimientos del Instituto Nacional de Medicina Genómica][manual].
 - Mejorar el tiempo de respuesta para los investigadores líderes.
 
+# Actores y sus intereses
+
+Estudiantes: Usar el clúster.
+Investigador líder: Que sus estudiantes trabajen en su artículo.
+Subdirección de Bioinformática: No gastar 40 minutos cada que alguien quiere una cuenta de usuario.
+
 # Especificación funcional
 
-Los investigadores líderes entran desde su navegador a <http://castillo.cluster.inmegen.gob.mx>,
-acceden con su usuario y contraseña en el clúster institucional
-u opcionalmente con el usuario y contraseña de su cuenta de correo institucional.
+Los usuarios entran desde su navegador a <http://castillo.cluster.inmegen.gob.mx>,
+acceden con su cuenta de usuario y contraseña en el clúster institucional
+o con la cuenta de usuario y contraseña de su cuenta de correo institucional.
 
-A los usuarios comunes los dirige a una página de documentación del clúster institucional
+A los usuarios comunes se les muestra documentación del clúster institucional
 y les permite cambiar su contraseña o reestablecerla si no tienen acceso.
 
-A los investigadores líderes les muestra un menú en el que pueden generar usuarios,
+A los investigadores líderes les muestra un menú en el que pueden generar cuentas de usuario,
 extender el periodo de uso de sus estudiantes
-o terminar el periodo de acceso de los usuarios a su cargo.
+o terminar el periodo de acceso de las cuentas de usuario a su cargo.
+
+# Requerimientos de calidad
+
+- Cada página debe cargar en menos de 800ms
 
 # Especificación técnica
 
