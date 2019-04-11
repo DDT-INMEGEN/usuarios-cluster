@@ -17,6 +17,8 @@ Clúster Institucional: El grupo de cómputo dedicado a cómputo científico en 
 
 Investigador Líder: La persona responsable de un Grupo de Investigación en el Instituto
 
+Empleado: Persona que trabaja para el Instituto y tiene un Correo Institucional del dominio `inmegen.gob.mx`.
+
 Grupo de Investigación: El identificador de grupo de sistema operativo utiliza para administrar los permisos de las Cuentas de Usuario.
 
 Usuario: La persona que utilizará el Clúster Institucional.
@@ -53,9 +55,9 @@ Cualquier Usuario puede ver documentación del Clúster Institucional
 y establecer, cambiar o restablecer su Contraseña.
 
 El Investigador Líder observa un menú en el que puede
-- Generar o eliminar Cuentas de Usuario que únicamente pertenezcan a su Grupo de Investigación,
-- Extender o terminar el Periodo de Acceso de las cuentas de usuario a su cargo.
-- Agregar o eliminar el acceso de Cuentas de Usuario a su Grupo de Investigación.
+- generar o eliminar Cuentas de Usuario que únicamente pertenezcan a su Grupo de Investigación,
+- extender o terminar el Periodo de Acceso de las cuentas de usuario a su cargo.
+- agregar o eliminar el acceso de Cuentas de Usuario a su Grupo de Investigación.
 
 El administrador del Clúster Institucional puede
 - generar, eliminar o actualizar un Grupo de Investigación,
@@ -65,6 +67,7 @@ El administrador del Clúster Institucional puede
 Cuando se genera una Cuenta de Usuario se notifica al Usuario para establecer su Contraseña.
 
 Cada Cuenta de Usuario debe permitir el acceso al Clúster Institucional durante el Periodo de Acceso.
+El Periodo de Acceso de un Empleado puede ser indefinido.
 
 # Requerimientos de calidad
 
