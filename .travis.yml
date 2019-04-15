@@ -1,0 +1,20 @@
+language: python
+
+dist: xenial
+
+python:
+  - "3.5"
+
+env:
+  - DJANGO_VERSION=1.11.11
+
+install:
+  - pip3 install -q Django==$DJANGO_VERSION
+  - pip3 install -r requirements.txt
+
+script:
+  - id
+  - env
+  - locale
+  - tty | true
+  - python3 manage.py migrate
