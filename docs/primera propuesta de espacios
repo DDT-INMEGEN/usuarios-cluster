@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.5.0.min.css"/>
+	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/skeleton.css">
+  	<link rel="stylesheet" href="css/custom.css">
+  </head>
+	
+  <body class="code-snippets-visible">
+   <div class="container">
+
+	 <section class="header">
+	   <div class ="twelve columns">
+	    <div class="two columns">Logo</div>
+	    <div class="ten columns">INMEGEN</div>
+	   </div>
+	 </section>
+	</div>
+	 <div class="container">
+	   <div class ="twelve columns">
+		 <div class ="nine columns">...</div>
+		 <div class="three columns">
+			<select name=menu>
+			<option>Salir
+			<option>Cambiar contraseña
+			</select>
+		 </div>
+	   </div>	
+   </div>
+	 
+	 <div class="container">
+	  <div class="row">
+	    <div class="twelve">
+		  <div class="one column">uno</div>
+		  <div class="ten columns"><center>diez</center></div>
+		  <div class="one column">uno</div>
+	    </div>
+      </div>
+	 </div>
+</body>
+</html>
