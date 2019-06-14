@@ -1,0 +1,74 @@
+
+#33 Verificar que el usuario existe 
+
+Objetivo
+
+Identificar si un usuario existe usando su nombre o correo electrónico
+
+Propuesta
+
+¿Qué hará el programa?
+
+La función recibirá información que podría ser: 
+	-nombre 
+	-correo
+
+De acuerdo a la columna que contenga la lista que se usara, la función buscara la opción que sea igual al dato ingresado, comparando las casillas 
+
+Una vez encuentre al usuario mostrara sus datos, según la fila.
+
+De no cumplirse esto dirá que el usuario no existe  
+
+Pasos a realizar
+
+ingresar 
+separar
+comparar
+buscar
+mostrar
+
+variables 
+
+ingresar_nombre= n
+ingresar_correo= c
+lista_nombres= nom 
+lista_correos= cor
+renglon_usuario= u
+respuesta_renglon= renglon
+respuesta_no existe= e
+
+nota: La letra después del igual es otra propuesta para nombrar a las variables, con su debida explicación
+
+funcionamiento 
+
+si n pertenece a nom o c pertenece a cor
+entonces se muestra el renglón completo
+si no pasa esto se dirá que no existe 
+
+nota: Las listas de los nombres y los correos, además de él renglón con la información del usuario, se tomarán de la base de datos ya existente que menciona el #32 usando comandos SQL, seleccionando la columna y tomándola como si fuera una lista, para poder hacer la comparación
+
+función
+
+>>> def verificar(respuesta):
+	print (ingresa el nombre del usuario)
+	ingresar_nombre= input()
+	print (ingresa el correo del usuario)
+	ingresar_correo= input()
+	lista_nombres = [nombres]
+	lista_correos = [correos]
+		if ingresar_nombre in lista_nombres or ingresar_correo in lista_correos:
+		respuesta= renglon
+		else:
+		respuesta= no existe
+	verificar ()
+
+Problemas
+
+No tengo forma de probarlo ya que no tengo a mi disposición una copia de la base de datos para probarla
+
+Soluciones 
+
+- Crear una base de datos pequeña con información al azar para probar la función
+- Tener una copia de la base de datos para probar la función
+
+
